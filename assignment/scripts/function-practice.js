@@ -85,11 +85,15 @@ console.log('in getLast function', getLast(myArray));
 //    DO NOT use Array.includes, Array.indexOf, or Array.find 
 let myNewArray = [1,2,3,4,5,6,7]
 console.log(myNewArray);
-let ValueToMatch = 0
-function ValueSearch(value) {
-console.log('in valueSearch');
-if(valueToMatch >= array.length) {return true};
-}
+function find(value, array){
+ for (let item of array) {
+  if (value === item) {
+ return true;
+  }
+ }
+  return false
+ }
+
 // ----------------------
 // Stretch Goals
 // ----------------------

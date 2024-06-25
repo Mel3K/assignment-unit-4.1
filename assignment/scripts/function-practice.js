@@ -14,13 +14,20 @@ console.log('Test - should say "Hello World!"', hello());
 
 // 2. Function to return an personalized hello, using the `name` argument.
 //    for example 'Hello, Jo!', or 'Hello, Stacy!'
-let name = "Mel";
+let myName = "Mel";
+console.log(myName);
 
 function helloName(name) {
   return `Hello, ${name}!`;
 }
 // Remember to call the function to test
-console.log('test -should say "Hello, Joe!', helloName(name));
+console.log('test -should say "Hello, Mel!', helloName(myName));
+ let yourName = "Johnny";
+
+console.log('test should say "Hello, Johnny!', helloName(yourName));
+
+
+
 
 
 // 3. Function to add two numbers together & return the result
@@ -36,6 +43,10 @@ function multiplyThree(numOne,numTwo, numThree) {
   return numOne * numTwo * numThree
 }
 multiplyThree(1,2,3);
+console.log('multiplybyThree function', multiplyThree(2,2,2));
+console.log('in multiplyByThree', multiplyThree(5,1,5));
+
+
 
 
 
